@@ -1,0 +1,304 @@
+[{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127c8"
+  },
+  "id_estado": 1,
+  "nombre": "PENDIENTE"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127c9"
+  },
+  "id_estado": 2,
+  "nombre": "CONFIRMADO"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127ca"
+  },
+  "id_estado": 3,
+  "nombre": "EN_PREPARACION"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127cb"
+  },
+  "id_estado": 4,
+  "nombre": "EN_CAMINO"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127cc"
+  },
+  "id_estado": 5,
+  "nombre": "ENTREGADO"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127cd"
+  },
+  "id_estado": 6,
+  "nombre": "CANCELADO"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127ce"
+  },
+  "id_estado": 7,
+  "nombre": "REPROGRAMADO"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127cf"
+  },
+  "id_estado": 8,
+  "nombre": "DEVUELTO"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127d0"
+  },
+  "id_estado": 9,
+  "nombre": "EN_REVISION"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127d1"
+  },
+  "id_estado": 10,
+  "nombre": "RETRASADO"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127d2"
+  },
+  "id_estado": 11,
+  "nombre": "PAGO_PENDIENTE"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127d3"
+  },
+  "id_estado": 12,
+  "nombre": "PAGO_CONFIRMADO"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127d4"
+  },
+  "id_estado": 13,
+  "nombre": "DIRECCION_VALIDACION"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127d5"
+  },
+  "id_estado": 14,
+  "nombre": "DOMICILIARIO_ASIGNADO"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127d6"
+  },
+  "id_estado": 15,
+  "nombre": "LISTO_RECOGER"
+},
+{
+  "_id": {
+    "$oid": "6b04b002c93bd4acf12127d7"
+  },
+  "id_estado": 16,
+  "nombre": "CERRADO"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4857"
+  },
+  "id_estado": 17,
+  "nombre": "EN_ESPERA",
+  "descripcion": "El pedido esta esperando atencion"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4858"
+  },
+  "id_estado": 18,
+  "nombre": "EN_VALIDACION",
+  "descripcion": "Se estan verificando los datos"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4859"
+  },
+  "id_estado": 19,
+  "nombre": "PEDIDO_REGISTRADO",
+  "descripcion": "El pedido fue registrado"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd485a"
+  },
+  "id_estado": 20,
+  "nombre": "PEDIDO_ACEPTADO",
+  "descripcion": "El pedido fue aceptado"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd485b"
+  },
+  "id_estado": 21,
+  "nombre": "PAGO_VERIFICADO",
+  "descripcion": "El pago fue verificado"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd485c"
+  },
+  "id_estado": 22,
+  "nombre": "EN_ALISTAMIENTO",
+  "descripcion": "Se estan preparando los productos"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd485d"
+  },
+  "id_estado": 23,
+  "nombre": "PRODUCTO_EMPACADO",
+  "descripcion": "Los productos fueron empacados"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd485e"
+  },
+  "id_estado": 24,
+  "nombre": "LISTO_PARA_ENVIO",
+  "descripcion": "El pedido esta listo para salir"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd485f"
+  },
+  "id_estado": 25,
+  "nombre": "DOMICILIARIO_EN_RUTA",
+  "descripcion": "El domiciliario se encuentra en ruta"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4860"
+  },
+  "id_estado": 26,
+  "nombre": "CERCA_DEL_DESTINO",
+  "descripcion": "El domiciliario esta cerca del destino"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4861"
+  },
+  "id_estado": 27,
+  "nombre": "ENTREGA_PARCIAL",
+  "descripcion": "Se realizo una entrega parcial"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4862"
+  },
+  "id_estado": 28,
+  "nombre": "ENTREGA_COMPLETA",
+  "descripcion": "La entrega fue completada"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4863"
+  },
+  "id_estado": 29,
+  "nombre": "CLIENTE_AUSENTE",
+  "descripcion": "No fue posible encontrar al cliente"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4864"
+  },
+  "id_estado": 30,
+  "nombre": "DIRECCION_INCORRECTA",
+  "descripcion": "La direccion registrada es incorrecta"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4865"
+  },
+  "id_estado": 31,
+  "nombre": "PEDIDO_DEVUELTO",
+  "descripcion": "El pedido fue devuelto"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4866"
+  },
+  "id_estado": 32,
+  "nombre": "REEMBOLSO_SOLICITADO",
+  "descripcion": "Se solicito un reembolso"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4867"
+  },
+  "id_estado": 33,
+  "nombre": "REEMBOLSO_APROBADO",
+  "descripcion": "El reembolso fue aprobado"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4868"
+  },
+  "id_estado": 34,
+  "nombre": "REEMBOLSO_RECHAZADO",
+  "descripcion": "El reembolso fue rechazado"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4869"
+  },
+  "id_estado": 35,
+  "nombre": "PEDIDO_MODIFICADO",
+  "descripcion": "El pedido tuvo modificaciones"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd486a"
+  },
+  "id_estado": 36,
+  "nombre": "PEDIDO_REPROGRAMADO",
+  "descripcion": "El pedido fue reprogramado"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd486b"
+  },
+  "id_estado": 37,
+  "nombre": "INCIDENCIA_REPORTADA",
+  "descripcion": "Se reporto una incidencia"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd486c"
+  },
+  "id_estado": 38,
+  "nombre": "INCIDENCIA_RESUELTA",
+  "descripcion": "La incidencia fue resuelta"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd486d"
+  },
+  "id_estado": 39,
+  "nombre": "PEDIDO_FINALIZADO",
+  "descripcion": "El proceso del pedido finalizo"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd486e"
+  },
+  "id_estado": 40,
+  "nombre": "PEDIDO_ARCHIVADO",
+  "descripcion": "El pedido fue archivado"
+}]

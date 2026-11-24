@@ -1,0 +1,328 @@
+[{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961e6"
+  },
+  "id_categoria": 1,
+  "nombre": "Pizzas"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961e7"
+  },
+  "id_categoria": 2,
+  "nombre": "Hamburguesas"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961e8"
+  },
+  "id_categoria": 3,
+  "nombre": "Bebidas"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961e9"
+  },
+  "id_categoria": 4,
+  "nombre": "Postres"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961ea"
+  },
+  "id_categoria": 5,
+  "nombre": "Ensaladas"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961eb"
+  },
+  "id_categoria": 6,
+  "nombre": "Perros calientes"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961ec"
+  },
+  "id_categoria": 7,
+  "nombre": "Sandwiches"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961ed"
+  },
+  "id_categoria": 8,
+  "nombre": "Pastas"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961ee"
+  },
+  "id_categoria": 9,
+  "nombre": "Desayunos"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961ef"
+  },
+  "id_categoria": 10,
+  "nombre": "Almuerzos"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961f0"
+  },
+  "id_categoria": 11,
+  "nombre": "Sopas"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961f1"
+  },
+  "id_categoria": 12,
+  "nombre": "Pollo"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961f2"
+  },
+  "id_categoria": 13,
+  "nombre": "Carnes"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961f3"
+  },
+  "id_categoria": 14,
+  "nombre": "Pescados"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961f4"
+  },
+  "id_categoria": 15,
+  "nombre": "Acompanamientos"
+},
+{
+  "_id": {
+    "$oid": "6b04ae51821309aa4b0961f5"
+  },
+  "id_categoria": 16,
+  "nombre": "Combos"
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd480f"
+  },
+  "id_categoria": 17,
+  "nombre": "Arepas",
+  "descripcion": "Productos preparados a base de maiz",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4810"
+  },
+  "id_categoria": 18,
+  "nombre": "Empanadas",
+  "descripcion": "Empanadas de diferentes rellenos",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4811"
+  },
+  "id_categoria": 19,
+  "nombre": "Tacos",
+  "descripcion": "Comida mexicana",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4812"
+  },
+  "id_categoria": 20,
+  "nombre": "Wraps",
+  "descripcion": "Tortillas rellenas",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4813"
+  },
+  "id_categoria": 21,
+  "nombre": "Papas fritas",
+  "descripcion": "Acompanamientos de papa",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4814"
+  },
+  "id_categoria": 22,
+  "nombre": "Arroz",
+  "descripcion": "Preparaciones con arroz",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4815"
+  },
+  "id_categoria": 23,
+  "nombre": "Frutas",
+  "descripcion": "Preparaciones con frutas frescas",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4816"
+  },
+  "id_categoria": 24,
+  "nombre": "Helados",
+  "descripcion": "Postres congelados",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4817"
+  },
+  "id_categoria": 25,
+  "nombre": "Malteadas",
+  "descripcion": "Bebidas preparadas con leche",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4818"
+  },
+  "id_categoria": 26,
+  "nombre": "Cafe",
+  "descripcion": "Bebidas a base de cafe",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4819"
+  },
+  "id_categoria": 27,
+  "nombre": "Te",
+  "descripcion": "Bebidas frias y calientes",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd481a"
+  },
+  "id_categoria": 28,
+  "nombre": "Panaderia",
+  "descripcion": "Productos de panaderia",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd481b"
+  },
+  "id_categoria": 29,
+  "nombre": "Panes",
+  "descripcion": "Diferentes tipos de pan",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd481c"
+  },
+  "id_categoria": 30,
+  "nombre": "Galletas",
+  "descripcion": "Productos horneados dulces",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd481d"
+  },
+  "id_categoria": 31,
+  "nombre": "Tortas",
+  "descripcion": "Postres y tortas",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd481e"
+  },
+  "id_categoria": 32,
+  "nombre": "Pizzas especiales",
+  "descripcion": "Pizzas con ingredientes especiales",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd481f"
+  },
+  "id_categoria": 33,
+  "nombre": "Hamburguesas especiales",
+  "descripcion": "Hamburguesas con ingredientes adicionales",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4820"
+  },
+  "id_categoria": 34,
+  "nombre": "Comida vegetariana",
+  "descripcion": "Preparaciones sin carne",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4821"
+  },
+  "id_categoria": 35,
+  "nombre": "Comida vegana",
+  "descripcion": "Preparaciones sin productos animales",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4822"
+  },
+  "id_categoria": 36,
+  "nombre": "Mariscos",
+  "descripcion": "Preparaciones con productos del mar",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4823"
+  },
+  "id_categoria": 37,
+  "nombre": "Sushi",
+  "descripcion": "Preparaciones de comida japonesa",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4824"
+  },
+  "id_categoria": 38,
+  "nombre": "Comida mexicana",
+  "descripcion": "Platos tradicionales mexicanos",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4825"
+  },
+  "id_categoria": 39,
+  "nombre": "Comida italiana",
+  "descripcion": "Preparaciones de origen italiano",
+  "activo": true
+},
+{
+  "_id": {
+    "$oid": "6b04b8f12930cf3ccdbd4826"
+  },
+  "id_categoria": 40,
+  "nombre": "Promociones",
+  "descripcion": "Combos y ofertas especiales",
+  "activo": true
+}]

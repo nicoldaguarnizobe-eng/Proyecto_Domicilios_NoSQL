@@ -1,0 +1,2616 @@
+[{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05ea"
+  },
+  "id_pedido": 1,
+  "id_cliente": 1,
+  "id_direccion": 1,
+  "fecha_creacion": "2026-10-01 12:00:00",
+  "subtotal": 28000,
+  "costo_domicilio": 3000,
+  "total": 31000,
+  "cliente": {
+    "nombre": "Ana Rodriguez",
+    "telefono": "3001110001",
+    "correo": "ana@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Ana Rodriguez",
+    "telefono": "3001110001",
+    "direccion": "Calle 10 # 20-15",
+    "barrio": "Tunal",
+    "ciudad": "Bogota",
+    "referencia": "Casa azul"
+  },
+  "productos": [
+    {
+      "id_producto": 1,
+      "nombre": "Pizza Hawaiana",
+      "cantidad": 1,
+      "precio_unitario": 28000,
+      "subtotal": 28000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 4,
+    "nombre": "EN_CAMINO"
+  },
+  "pago": {
+    "metodo": "NEQUI",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-10-01 12:05:00",
+    "valor": 31000
+  },
+  "asignacion": {
+    "id_domiciliario": 1,
+    "nombre": "Pedro Sanchez",
+    "telefono": "3102220001",
+    "fecha_asignacion": "2026-10-01 12:10:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estados": [
+    {
+      "id_estado": 1,
+      "nombre": "PENDIENTE",
+      "fecha": "2026-10-01 12:00:00",
+      "observacion": "Pedido recibido"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "RETRASO",
+      "descripcion": "Demora por trafico",
+      "fecha": "2026-10-01 12:20:00",
+      "resuelta": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05eb"
+  },
+  "id_pedido": 2,
+  "id_cliente": 2,
+  "id_direccion": 2,
+  "fecha_creacion": "2026-10-01 12:30:00",
+  "subtotal": 22000,
+  "costo_domicilio": 3000,
+  "total": 25000,
+  "cliente": {
+    "nombre": "Carlos Martinez",
+    "telefono": "3001110002",
+    "correo": "carlos@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Carlos Martinez",
+    "telefono": "3001110002",
+    "direccion": "Carrera 15 # 30-20",
+    "barrio": "Centro",
+    "ciudad": "Bogota",
+    "referencia": "Frente al parque"
+  },
+  "productos": [
+    {
+      "id_producto": 12,
+      "nombre": "Pasta Alfredo",
+      "cantidad": 1,
+      "precio_unitario": 22000,
+      "subtotal": 22000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 1,
+    "nombre": "PENDIENTE"
+  },
+  "pago": {
+    "metodo": "EFECTIVO",
+    "estado": "PENDIENTE",
+    "fecha_pago": null,
+    "valor": 25000
+  },
+  "asignacion": {
+    "id_domiciliario": 2,
+    "nombre": "Luis Fernandez",
+    "telefono": "3102220002",
+    "fecha_asignacion": "2026-10-01 12:40:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estados": [
+    {
+      "id_estado": 1,
+      "nombre": "PENDIENTE",
+      "fecha": "2026-10-01 12:30:00",
+      "observacion": "Pedido recibido"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "PAGO",
+      "descripcion": "Pago pendiente de confirmacion",
+      "fecha": "2026-10-01 12:35:00",
+      "resuelta": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05ec"
+  },
+  "id_pedido": 3,
+  "id_cliente": 3,
+  "id_direccion": 3,
+  "fecha_creacion": "2026-10-02 13:00:00",
+  "subtotal": 18000,
+  "costo_domicilio": 3000,
+  "total": 21000,
+  "cliente": {
+    "nombre": "Laura Gomez",
+    "telefono": "3001110003",
+    "correo": "laura@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Laura Gomez",
+    "telefono": "3001110003",
+    "direccion": "Calle 40 # 12-18",
+    "barrio": "Venecia",
+    "ciudad": "Bogota",
+    "referencia": "Casa esquinera"
+  },
+  "productos": [
+    {
+      "id_producto": 3,
+      "nombre": "Hamburguesa Clasica",
+      "cantidad": 1,
+      "precio_unitario": 18000,
+      "subtotal": 18000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 5,
+    "nombre": "ENTREGADO"
+  },
+  "pago": {
+    "metodo": "TARJETA",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-10-02 13:10:00",
+    "valor": 21000
+  },
+  "asignacion": {
+    "id_domiciliario": 3,
+    "nombre": "Jorge Silva",
+    "telefono": "3102220003",
+    "fecha_asignacion": "2026-10-02 13:05:00",
+    "fecha_recogida": "2026-10-02 13:10:00",
+    "fecha_entrega": "2026-10-02 13:20:00",
+    "activa": false
+  },
+  "historial_estados": [
+    {
+      "id_estado": 5,
+      "nombre": "ENTREGADO",
+      "fecha": "2026-10-02 13:20:00",
+      "observacion": "Pedido entregado"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "ENTREGA",
+      "descripcion": "Entrega completada sin novedad",
+      "fecha": "2026-10-02 13:20:00",
+      "resuelta": true
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05ed"
+  },
+  "id_pedido": 4,
+  "id_cliente": 4,
+  "id_direccion": 4,
+  "fecha_creacion": "2026-10-02 13:30:00",
+  "subtotal": 23000,
+  "costo_domicilio": 3000,
+  "total": 26000,
+  "cliente": {
+    "nombre": "Juan Perez",
+    "telefono": "3001110004",
+    "correo": "juan@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Juan Perez",
+    "telefono": "3001110004",
+    "direccion": "Carrera 20 # 45-10",
+    "barrio": "Restrepo",
+    "ciudad": "Bogota",
+    "referencia": "Edificio blanco"
+  },
+  "productos": [
+    {
+      "id_producto": 14,
+      "nombre": "Almuerzo Ejecutivo",
+      "cantidad": 1,
+      "precio_unitario": 23000,
+      "subtotal": 23000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 3,
+    "nombre": "EN_PREPARACION"
+  },
+  "pago": {
+    "metodo": "NEQUI",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-10-02 13:35:00",
+    "valor": 26000
+  },
+  "asignacion": {
+    "id_domiciliario": 4,
+    "nombre": "Oscar Ramirez",
+    "telefono": "3102220004",
+    "fecha_asignacion": "2026-10-02 13:40:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estados": [
+    {
+      "id_estado": 3,
+      "nombre": "EN_PREPARACION",
+      "fecha": "2026-10-02 13:35:00",
+      "observacion": "Pedido en preparacion"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "PRODUCTO",
+      "descripcion": "Solicitud de revision del pedido",
+      "fecha": "2026-10-02 13:45:00",
+      "resuelta": true
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05ee"
+  },
+  "id_pedido": 5,
+  "id_cliente": 5,
+  "id_direccion": 5,
+  "fecha_creacion": "2026-10-03 14:00:00",
+  "subtotal": 16000,
+  "costo_domicilio": 3000,
+  "total": 19000,
+  "cliente": {
+    "nombre": "Maria Lopez",
+    "telefono": "3001110005",
+    "correo": "maria@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Maria Lopez",
+    "telefono": "3001110005",
+    "direccion": "Calle 50 # 10-25",
+    "barrio": "Kennedy",
+    "ciudad": "Bogota",
+    "referencia": "Casa de dos pisos"
+  },
+  "productos": [
+    {
+      "id_producto": 11,
+      "nombre": "Sandwich de Pollo",
+      "cantidad": 1,
+      "precio_unitario": 16000,
+      "subtotal": 16000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 4,
+    "nombre": "EN_CAMINO"
+  },
+  "pago": {
+    "metodo": "EFECTIVO",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-10-03 14:05:00",
+    "valor": 19000
+  },
+  "asignacion": {
+    "id_domiciliario": 5,
+    "nombre": "Diego Morales",
+    "telefono": "3102220005",
+    "fecha_asignacion": "2026-10-03 14:10:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estados": [
+    {
+      "id_estado": 4,
+      "nombre": "EN_CAMINO",
+      "fecha": "2026-10-03 14:10:00",
+      "observacion": "Pedido en camino"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "DIRECCION",
+      "descripcion": "Dificultad para ubicar la direccion",
+      "fecha": "2026-10-03 14:15:00",
+      "resuelta": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05ef"
+  },
+  "id_pedido": 6,
+  "id_cliente": 6,
+  "id_direccion": 6,
+  "fecha_creacion": "2026-10-03 14:30:00",
+  "subtotal": 26000,
+  "costo_domicilio": 3000,
+  "total": 29000,
+  "cliente": {
+    "nombre": "Andres Torres",
+    "telefono": "3001110006",
+    "correo": "andres@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Andres Torres",
+    "telefono": "3001110006",
+    "direccion": "Carrera 30 # 60-12",
+    "barrio": "Bosa",
+    "ciudad": "Bogota",
+    "referencia": "Porton negro"
+  },
+  "productos": [
+    {
+      "id_producto": 4,
+      "nombre": "Hamburguesa Doble",
+      "cantidad": 1,
+      "precio_unitario": 26000,
+      "subtotal": 26000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 6,
+    "nombre": "CANCELADO"
+  },
+  "pago": {
+    "metodo": "TARJETA",
+    "estado": "RECHAZADO",
+    "fecha_pago": "2026-10-03 14:40:00",
+    "valor": 29000
+  },
+  "asignacion": {
+    "id_domiciliario": 6,
+    "nombre": "Andres Castillo",
+    "telefono": "3102220006",
+    "fecha_asignacion": "2026-10-03 14:40:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": false
+  },
+  "historial_estados": [
+    {
+      "id_estado": 6,
+      "nombre": "CANCELADO",
+      "fecha": "2026-10-03 14:40:00",
+      "observacion": "Pedido cancelado"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "CANCELACION",
+      "descripcion": "Pedido cancelado por el cliente",
+      "fecha": "2026-10-03 14:45:00",
+      "resuelta": true
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05f0"
+  },
+  "id_pedido": 7,
+  "id_cliente": 7,
+  "id_direccion": 7,
+  "fecha_creacion": "2026-10-04 12:00:00",
+  "subtotal": 25000,
+  "costo_domicilio": 3000,
+  "total": 28000,
+  "cliente": {
+    "nombre": "Sofia Ramirez",
+    "telefono": "3001110007",
+    "correo": "sofia@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Sofia Ramirez",
+    "telefono": "3001110007",
+    "direccion": "Calle 70 # 15-30",
+    "barrio": "Suba",
+    "ciudad": "Bogota",
+    "referencia": "Conjunto residencial"
+  },
+  "productos": [
+    {
+      "id_producto": 2,
+      "nombre": "Pizza Margarita",
+      "cantidad": 1,
+      "precio_unitario": 25000,
+      "subtotal": 25000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 2,
+    "nombre": "CONFIRMADO"
+  },
+  "pago": {
+    "metodo": "NEQUI",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-10-04 12:10:00",
+    "valor": 28000
+  },
+  "asignacion": {
+    "id_domiciliario": 7,
+    "nombre": "Mateo Rojas",
+    "telefono": "3102220007",
+    "fecha_asignacion": "2026-10-04 12:10:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estados": [
+    {
+      "id_estado": 2,
+      "nombre": "CONFIRMADO",
+      "fecha": "2026-10-04 12:10:00",
+      "observacion": "Pedido confirmado"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "RETRASO",
+      "descripcion": "Lluvia durante el recorrido",
+      "fecha": "2026-10-04 12:20:00",
+      "resuelta": true
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05f1"
+  },
+  "id_pedido": 8,
+  "id_cliente": 8,
+  "id_direccion": 8,
+  "fecha_creacion": "2026-10-04 12:30:00",
+  "subtotal": 18000,
+  "costo_domicilio": 3000,
+  "total": 21000,
+  "cliente": {
+    "nombre": "Daniel Castro",
+    "telefono": "3001110008",
+    "correo": "daniel@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Daniel Castro",
+    "telefono": "3001110008",
+    "direccion": "Carrera 80 # 25-40",
+    "barrio": "Engativa",
+    "ciudad": "Bogota",
+    "referencia": "Casa verde"
+  },
+  "productos": [
+    {
+      "id_producto": 3,
+      "nombre": "Hamburguesa Clasica",
+      "cantidad": 1,
+      "precio_unitario": 18000,
+      "subtotal": 18000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 5,
+    "nombre": "ENTREGADO"
+  },
+  "pago": {
+    "metodo": "EFECTIVO",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-10-04 12:40:00",
+    "valor": 21000
+  },
+  "asignacion": {
+    "id_domiciliario": 8,
+    "nombre": "Nicolas Herrera",
+    "telefono": "3102220008",
+    "fecha_asignacion": "2026-10-04 12:40:00",
+    "fecha_recogida": "2026-10-04 12:45:00",
+    "fecha_entrega": "2026-10-04 12:55:00",
+    "activa": false
+  },
+  "historial_estados": [
+    {
+      "id_estado": 5,
+      "nombre": "ENTREGADO",
+      "fecha": "2026-10-04 12:55:00",
+      "observacion": "Pedido entregado"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "ENTREGA",
+      "descripcion": "Cliente recibio el pedido",
+      "fecha": "2026-10-04 12:55:00",
+      "resuelta": true
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05f2"
+  },
+  "id_pedido": 9,
+  "id_cliente": 9,
+  "id_direccion": 9,
+  "fecha_creacion": "2026-10-05 13:00:00",
+  "subtotal": 15000,
+  "costo_domicilio": 3000,
+  "total": 18000,
+  "cliente": {
+    "nombre": "Camila Moreno",
+    "telefono": "3001110009",
+    "correo": "camila@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Camila Moreno",
+    "telefono": "3001110009",
+    "direccion": "Calle 22 # 18-16",
+    "barrio": "Fontibon",
+    "ciudad": "Bogota",
+    "referencia": "Frente a tienda"
+  },
+  "productos": [
+    {
+      "id_producto": 9,
+      "nombre": "Ensalada Cesar",
+      "cantidad": 1,
+      "precio_unitario": 15000,
+      "subtotal": 15000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 3,
+    "nombre": "EN_PREPARACION"
+  },
+  "pago": {
+    "metodo": "TARJETA",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-10-05 13:10:00",
+    "valor": 18000
+  },
+  "asignacion": {
+    "id_domiciliario": 9,
+    "nombre": "Samuel Torres",
+    "telefono": "3102220009",
+    "fecha_asignacion": "2026-10-05 13:10:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estados": [
+    {
+      "id_estado": 3,
+      "nombre": "EN_PREPARACION",
+      "fecha": "2026-10-05 13:10:00",
+      "observacion": "Pedido en preparacion"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "PAGO",
+      "descripcion": "Pago validado",
+      "fecha": "2026-10-05 13:15:00",
+      "resuelta": true
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05f3"
+  },
+  "id_pedido": 10,
+  "id_cliente": 10,
+  "id_direccion": 10,
+  "fecha_creacion": "2026-10-05 13:30:00",
+  "subtotal": 22000,
+  "costo_domicilio": 3000,
+  "total": 25000,
+  "cliente": {
+    "nombre": "Sebastian Diaz",
+    "telefono": "3001110010",
+    "correo": "sebastian@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Sebastian Diaz",
+    "telefono": "3001110010",
+    "direccion": "Carrera 45 # 32-19",
+    "barrio": "Chapinero",
+    "ciudad": "Bogota",
+    "referencia": "Apartamento 301"
+  },
+  "productos": [
+    {
+      "id_producto": 12,
+      "nombre": "Pasta Alfredo",
+      "cantidad": 1,
+      "precio_unitario": 22000,
+      "subtotal": 22000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 4,
+    "nombre": "EN_CAMINO"
+  },
+  "pago": {
+    "metodo": "NEQUI",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-10-05 13:40:00",
+    "valor": 25000
+  },
+  "asignacion": {
+    "id_domiciliario": 10,
+    "nombre": "David Castro",
+    "telefono": "3102220010",
+    "fecha_asignacion": "2026-10-05 13:40:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estados": [
+    {
+      "id_estado": 4,
+      "nombre": "EN_CAMINO",
+      "fecha": "2026-10-05 13:40:00",
+      "observacion": "Pedido en camino"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "DIRECCION",
+      "descripcion": "Ubicacion confirmada",
+      "fecha": "2026-10-05 13:45:00",
+      "resuelta": true
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05f4"
+  },
+  "id_pedido": 11,
+  "id_cliente": 11,
+  "id_direccion": 11,
+  "fecha_creacion": "2026-10-06 14:00:00",
+  "subtotal": 14000,
+  "costo_domicilio": 3000,
+  "total": 17000,
+  "cliente": {
+    "nombre": "Valentina Rojas",
+    "telefono": "3001110011",
+    "correo": "valentina@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Valentina Rojas",
+    "telefono": "3001110011",
+    "direccion": "Calle 90 # 11-22",
+    "barrio": "Usaquen",
+    "ciudad": "Bogota",
+    "referencia": "Casa blanca"
+  },
+  "productos": [
+    {
+      "id_producto": 10,
+      "nombre": "Perro Especial",
+      "cantidad": 1,
+      "precio_unitario": 14000,
+      "subtotal": 14000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 1,
+    "nombre": "PENDIENTE"
+  },
+  "pago": {
+    "metodo": "EFECTIVO",
+    "estado": "PENDIENTE",
+    "fecha_pago": null,
+    "valor": 17000
+  },
+  "asignacion": {
+    "id_domiciliario": 11,
+    "nombre": "Felipe Moreno",
+    "telefono": "3102220011",
+    "fecha_asignacion": "2026-10-06 14:10:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estados": [
+    {
+      "id_estado": 1,
+      "nombre": "PENDIENTE",
+      "fecha": "2026-10-06 14:00:00",
+      "observacion": "Pedido recibido"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "PAGO",
+      "descripcion": "Pago pendiente en efectivo",
+      "fecha": "2026-10-06 14:15:00",
+      "resuelta": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05f5"
+  },
+  "id_pedido": 12,
+  "id_cliente": 12,
+  "id_direccion": 12,
+  "fecha_creacion": "2026-10-06 14:30:00",
+  "subtotal": 23000,
+  "costo_domicilio": 3000,
+  "total": 26000,
+  "cliente": {
+    "nombre": "Miguel Herrera",
+    "telefono": "3001110012",
+    "correo": "miguel@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Miguel Herrera",
+    "telefono": "3001110012",
+    "direccion": "Carrera 12 # 55-33",
+    "barrio": "San Cristobal",
+    "ciudad": "Bogota",
+    "referencia": "Casa con reja"
+  },
+  "productos": [
+    {
+      "id_producto": 14,
+      "nombre": "Almuerzo Ejecutivo",
+      "cantidad": 1,
+      "precio_unitario": 23000,
+      "subtotal": 23000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 5,
+    "nombre": "ENTREGADO"
+  },
+  "pago": {
+    "metodo": "TARJETA",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-10-06 14:40:00",
+    "valor": 26000
+  },
+  "asignacion": {
+    "id_domiciliario": 12,
+    "nombre": "Camilo Ortiz",
+    "telefono": "3102220012",
+    "fecha_asignacion": "2026-10-06 14:40:00",
+    "fecha_recogida": "2026-10-06 14:45:00",
+    "fecha_entrega": "2026-10-06 14:55:00",
+    "activa": false
+  },
+  "historial_estados": [
+    {
+      "id_estado": 5,
+      "nombre": "ENTREGADO",
+      "fecha": "2026-10-06 14:55:00",
+      "observacion": "Pedido entregado"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "ENTREGA",
+      "descripcion": "Entrega finalizada",
+      "fecha": "2026-10-06 14:55:00",
+      "resuelta": true
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05f6"
+  },
+  "id_pedido": 13,
+  "id_cliente": 13,
+  "id_direccion": 13,
+  "fecha_creacion": "2026-10-07 12:00:00",
+  "subtotal": 20000,
+  "costo_domicilio": 3000,
+  "total": 23000,
+  "cliente": {
+    "nombre": "Isabella Vargas",
+    "telefono": "3001110013",
+    "correo": "isabella@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Isabella Vargas",
+    "telefono": "3001110013",
+    "direccion": "Calle 33 # 44-55",
+    "barrio": "Rafael Uribe",
+    "ciudad": "Bogota",
+    "referencia": "Interior 2"
+  },
+  "productos": [
+    {
+      "id_producto": 15,
+      "nombre": "Pollo Asado",
+      "cantidad": 1,
+      "precio_unitario": 20000,
+      "subtotal": 20000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 2,
+    "nombre": "CONFIRMADO"
+  },
+  "pago": {
+    "metodo": "NEQUI",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-10-07 12:10:00",
+    "valor": 23000
+  },
+  "asignacion": {
+    "id_domiciliario": 13,
+    "nombre": "Julian Vargas",
+    "telefono": "3102220013",
+    "fecha_asignacion": "2026-10-07 12:10:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estados": [
+    {
+      "id_estado": 2,
+      "nombre": "CONFIRMADO",
+      "fecha": "2026-10-07 12:10:00",
+      "observacion": "Pedido confirmado"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "PRODUCTO",
+      "descripcion": "Solicitud de cambio de producto",
+      "fecha": "2026-10-07 12:15:00",
+      "resuelta": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05f7"
+  },
+  "id_pedido": 14,
+  "id_cliente": 14,
+  "id_direccion": 14,
+  "fecha_creacion": "2026-10-07 12:30:00",
+  "subtotal": 55000,
+  "costo_domicilio": 3000,
+  "total": 58000,
+  "cliente": {
+    "nombre": "David Mendoza",
+    "telefono": "3001110014",
+    "correo": "david@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "David Mendoza",
+    "telefono": "3001110014",
+    "direccion": "Carrera 60 # 70-80",
+    "barrio": "Fontibon",
+    "ciudad": "Bogota",
+    "referencia": "Torre 3"
+  },
+  "productos": [
+    {
+      "id_producto": 16,
+      "nombre": "Combo Familiar",
+      "cantidad": 1,
+      "precio_unitario": 55000,
+      "subtotal": 55000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 3,
+    "nombre": "EN_PREPARACION"
+  },
+  "pago": {
+    "metodo": "EFECTIVO",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-10-07 12:40:00",
+    "valor": 58000
+  },
+  "asignacion": {
+    "id_domiciliario": 14,
+    "nombre": "Esteban Diaz",
+    "telefono": "3102220014",
+    "fecha_asignacion": "2026-10-07 12:40:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estados": [
+    {
+      "id_estado": 3,
+      "nombre": "EN_PREPARACION",
+      "fecha": "2026-10-07 12:30:00",
+      "observacion": "Pedido en preparacion"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "RETRASO",
+      "descripcion": "Demora en la preparacion",
+      "fecha": "2026-10-07 12:45:00",
+      "resuelta": true
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05f8"
+  },
+  "id_pedido": 15,
+  "id_cliente": 15,
+  "id_direccion": 15,
+  "fecha_creacion": "2026-10-08 13:00:00",
+  "subtotal": 16000,
+  "costo_domicilio": 3000,
+  "total": 19000,
+  "cliente": {
+    "nombre": "Natalia Ortiz",
+    "telefono": "3001110015",
+    "correo": "natalia@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Natalia Ortiz",
+    "telefono": "3001110015",
+    "direccion": "Calle 18 # 25-35",
+    "barrio": "Tunjuelito",
+    "ciudad": "Bogota",
+    "referencia": "Frente a colegio"
+  },
+  "productos": [
+    {
+      "id_producto": 11,
+      "nombre": "Sandwich de Pollo",
+      "cantidad": 1,
+      "precio_unitario": 16000,
+      "subtotal": 16000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 4,
+    "nombre": "EN_CAMINO"
+  },
+  "pago": {
+    "metodo": "TARJETA",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-10-08 13:10:00",
+    "valor": 19000
+  },
+  "asignacion": {
+    "id_domiciliario": 15,
+    "nombre": "Martin Gomez",
+    "telefono": "3102220015",
+    "fecha_asignacion": "2026-10-08 13:10:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estados": [
+    {
+      "id_estado": 4,
+      "nombre": "EN_CAMINO",
+      "fecha": "2026-10-08 13:10:00",
+      "observacion": "Pedido en camino"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "ENTREGA",
+      "descripcion": "Cliente no estaba disponible inicialmente",
+      "fecha": "2026-10-08 13:15:00",
+      "resuelta": true
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d5aee5846408c24a05f9"
+  },
+  "id_pedido": 16,
+  "id_cliente": 16,
+  "id_direccion": 16,
+  "fecha_creacion": "2026-10-08 13:30:00",
+  "subtotal": 34000,
+  "costo_domicilio": 3000,
+  "total": 37000,
+  "cliente": {
+    "nombre": "Felipe Suarez",
+    "telefono": "3001110016",
+    "correo": "felipe@gmail.com"
+  },
+  "destinatario": {
+    "nombre": "Felipe Suarez",
+    "telefono": "3001110016",
+    "direccion": "Carrera 25 # 35-45",
+    "barrio": "Ciudad Bolivar",
+    "ciudad": "Bogota",
+    "referencia": "Casa amarilla"
+  },
+  "productos": [
+    {
+      "id_producto": 1,
+      "nombre": "Pizza Hawaiana",
+      "cantidad": 1,
+      "precio_unitario": 28000,
+      "subtotal": 28000
+    }
+  ],
+  "estado_actual": {
+    "id_estado": 5,
+    "nombre": "ENTREGADO"
+  },
+  "pago": {
+    "metodo": "NEQUI",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-10-08 13:40:00",
+    "valor": 37000
+  },
+  "asignacion": {
+    "id_domiciliario": 16,
+    "nombre": "Tomas Lopez",
+    "telefono": "3102220016",
+    "fecha_asignacion": "2026-10-08 13:40:00",
+    "fecha_recogida": "2026-10-08 13:45:00",
+    "fecha_entrega": "2026-10-08 13:55:00",
+    "activa": false
+  },
+  "historial_estados": [
+    {
+      "id_estado": 5,
+      "nombre": "ENTREGADO",
+      "fecha": "2026-10-08 13:55:00",
+      "observacion": "Pedido entregado"
+    }
+  ],
+  "incidencias": [
+    {
+      "tipo": "CANCELACION",
+      "descripcion": "Registro de novedad del pedido",
+      "fecha": "2026-10-08 13:45:00",
+      "resuelta": true
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4da8"
+  },
+  "id_pedido": 17,
+  "fecha_creacion": "2026-11-01 12:00:00",
+  "cliente": {
+    "id_cliente": 17,
+    "nombre": "Gabriela Rincon",
+    "telefono": "3205550017",
+    "correo": "gabriela.rincon17@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 20 # 10-15",
+    "barrio": "Barrio 1",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 17,
+      "nombre": "Arepa de queso",
+      "cantidad": 1,
+      "precio_unitario": 8000,
+      "subtotal": 8000
+    }
+  ],
+  "subtotal": 8000,
+  "costo_domicilio": 3000,
+  "total": 11000,
+  "estado_actual": {
+    "id_estado": 17,
+    "nombre": "EN_ESPERA"
+  },
+  "pago": {
+    "metodo": "TARJETA",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-01 12:30:00",
+    "valor": 11000
+  },
+  "asignacion": {
+    "id_domiciliario": 17,
+    "nombre": "Ricardo Peña",
+    "telefono": "3105550017",
+    "fecha_asignacion": "2026-11-01 12:45:00",
+    "fecha_recogida": "2026-11-01 13:00:00",
+    "fecha_entrega": "2026-11-01 13:30:00",
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 17,
+      "estado": "EN_ESPERA",
+      "fecha": "2026-11-01 12:00:00",
+      "observacion": "Pedido recibido"
+    }
+  ],
+  "incidencia": {
+    "tipo": "NOVEDAD",
+    "descripcion": "Sin novedades reportadas",
+    "fecha": "2026-11-01 13:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4da9"
+  },
+  "id_pedido": 18,
+  "fecha_creacion": "2026-11-01 13:00:00",
+  "cliente": {
+    "id_cliente": 18,
+    "nombre": "Santiago Vargas",
+    "telefono": "3205550018",
+    "correo": "santiago.vargas18@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 21 # 11-15",
+    "barrio": "Barrio 2",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 18,
+      "nombre": "Empanada de carne",
+      "cantidad": 2,
+      "precio_unitario": 5000,
+      "subtotal": 10000
+    }
+  ],
+  "subtotal": 10000,
+  "costo_domicilio": 3000,
+  "total": 13000,
+  "estado_actual": {
+    "id_estado": 18,
+    "nombre": "EN_VALIDACION"
+  },
+  "pago": {
+    "metodo": "NEQUI",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-01 13:30:00",
+    "valor": 13000
+  },
+  "asignacion": {
+    "id_domiciliario": 18,
+    "nombre": "Carlos Rojas",
+    "telefono": "3105550018",
+    "fecha_asignacion": "2026-11-01 13:45:00",
+    "fecha_recogida": "2026-11-01 14:00:00",
+    "fecha_entrega": "2026-11-01 14:30:00",
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 18,
+      "estado": "EN_VALIDACION",
+      "fecha": "2026-11-01 13:00:00",
+      "observacion": "Pedido en proceso de validacion"
+    }
+  ],
+  "incidencia": {
+    "tipo": "PAGO",
+    "descripcion": "Pago validado correctamente",
+    "fecha": "2026-11-01 14:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4daa"
+  },
+  "id_pedido": 19,
+  "fecha_creacion": "2026-11-02 12:00:00",
+  "cliente": {
+    "id_cliente": 19,
+    "nombre": "Daniela Castillo",
+    "telefono": "3205550019",
+    "correo": "daniela.castillo19@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 22 # 12-15",
+    "barrio": "Barrio 3",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 19,
+      "nombre": "Tacos mexicanos",
+      "cantidad": 1,
+      "precio_unitario": 18000,
+      "subtotal": 18000
+    }
+  ],
+  "subtotal": 18000,
+  "costo_domicilio": 3000,
+  "total": 21000,
+  "estado_actual": {
+    "id_estado": 19,
+    "nombre": "PEDIDO_REGISTRADO"
+  },
+  "pago": {
+    "metodo": "EFECTIVO",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-02 12:30:00",
+    "valor": 21000
+  },
+  "asignacion": {
+    "id_domiciliario": 19,
+    "nombre": "Andres Molina",
+    "telefono": "3105550019",
+    "fecha_asignacion": "2026-11-02 12:45:00",
+    "fecha_recogida": "2026-11-02 13:00:00",
+    "fecha_entrega": "2026-11-02 13:30:00",
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 19,
+      "estado": "PEDIDO_REGISTRADO",
+      "fecha": "2026-11-02 12:00:00",
+      "observacion": "Pedido registrado en el sistema"
+    }
+  ],
+  "incidencia": {
+    "tipo": "NOVEDAD",
+    "descripcion": "Sin novedades reportadas",
+    "fecha": "2026-11-02 13:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4dab"
+  },
+  "id_pedido": 20,
+  "fecha_creacion": "2026-11-02 13:00:00",
+  "cliente": {
+    "id_cliente": 20,
+    "nombre": "Mateo Jimenez",
+    "telefono": "3205550020",
+    "correo": "mateo.jimenez20@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 23 # 13-15",
+    "barrio": "Barrio 4",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 20,
+      "nombre": "Wrap de pollo",
+      "cantidad": 2,
+      "precio_unitario": 16000,
+      "subtotal": 32000
+    }
+  ],
+  "subtotal": 32000,
+  "costo_domicilio": 3000,
+  "total": 35000,
+  "estado_actual": {
+    "id_estado": 20,
+    "nombre": "PEDIDO_ACEPTADO"
+  },
+  "pago": {
+    "metodo": "TARJETA",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-02 13:30:00",
+    "valor": 35000
+  },
+  "asignacion": {
+    "id_domiciliario": 20,
+    "nombre": "Javier Castro",
+    "telefono": "3105550020",
+    "fecha_asignacion": "2026-11-02 13:45:00",
+    "fecha_recogida": "2026-11-02 14:00:00",
+    "fecha_entrega": "2026-11-02 14:30:00",
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 20,
+      "estado": "PEDIDO_ACEPTADO",
+      "fecha": "2026-11-02 13:00:00",
+      "observacion": "Pedido aceptado por el establecimiento"
+    }
+  ],
+  "incidencia": {
+    "tipo": "NOVEDAD",
+    "descripcion": "Sin novedades reportadas",
+    "fecha": "2026-11-02 14:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4dac"
+  },
+  "id_pedido": 21,
+  "fecha_creacion": "2026-11-03 12:00:00",
+  "cliente": {
+    "id_cliente": 21,
+    "nombre": "Paula Herrera",
+    "telefono": "3205550021",
+    "correo": "paula.herrera21@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 24 # 14-15",
+    "barrio": "Barrio 5",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 21,
+      "nombre": "Papas especiales",
+      "cantidad": 1,
+      "precio_unitario": 10000,
+      "subtotal": 10000
+    }
+  ],
+  "subtotal": 10000,
+  "costo_domicilio": 3000,
+  "total": 13000,
+  "estado_actual": {
+    "id_estado": 21,
+    "nombre": "PAGO_VERIFICADO"
+  },
+  "pago": {
+    "metodo": "NEQUI",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-03 12:30:00",
+    "valor": 13000
+  },
+  "asignacion": {
+    "id_domiciliario": 21,
+    "nombre": "Daniel Torres",
+    "telefono": "3105550021",
+    "fecha_asignacion": "2026-11-03 12:45:00",
+    "fecha_recogida": "2026-11-03 13:00:00",
+    "fecha_entrega": "2026-11-03 13:30:00",
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 21,
+      "estado": "PAGO_VERIFICADO",
+      "fecha": "2026-11-03 12:00:00",
+      "observacion": "Pago confirmado"
+    }
+  ],
+  "incidencia": {
+    "tipo": "PAGO",
+    "descripcion": "Transaccion aprobada",
+    "fecha": "2026-11-03 13:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4dad"
+  },
+  "id_pedido": 22,
+  "fecha_creacion": "2026-11-03 13:00:00",
+  "cliente": {
+    "id_cliente": 22,
+    "nombre": "Alejandro Mendoza",
+    "telefono": "3205550022",
+    "correo": "alejandro.mendoza22@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 25 # 15-15",
+    "barrio": "Barrio 6",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 22,
+      "nombre": "Arroz con pollo",
+      "cantidad": 1,
+      "precio_unitario": 19000,
+      "subtotal": 19000
+    }
+  ],
+  "subtotal": 19000,
+  "costo_domicilio": 3000,
+  "total": 22000,
+  "estado_actual": {
+    "id_estado": 22,
+    "nombre": "EN_ALISTAMIENTO"
+  },
+  "pago": {
+    "metodo": "EFECTIVO",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-03 13:30:00",
+    "valor": 22000
+  },
+  "asignacion": {
+    "id_domiciliario": 22,
+    "nombre": "Kevin Martinez",
+    "telefono": "3105550022",
+    "fecha_asignacion": "2026-11-03 13:45:00",
+    "fecha_recogida": "2026-11-03 14:00:00",
+    "fecha_entrega": "2026-11-03 14:30:00",
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 22,
+      "estado": "EN_ALISTAMIENTO",
+      "fecha": "2026-11-03 13:00:00",
+      "observacion": "Productos en proceso de alistamiento"
+    }
+  ],
+  "incidencia": {
+    "tipo": "NOVEDAD",
+    "descripcion": "Alistamiento realizado correctamente",
+    "fecha": "2026-11-03 14:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4dae"
+  },
+  "id_pedido": 23,
+  "fecha_creacion": "2026-11-04 12:00:00",
+  "cliente": {
+    "id_cliente": 23,
+    "nombre": "Juliana Cortes",
+    "telefono": "3205550023",
+    "correo": "juliana.cortes23@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 26 # 16-15",
+    "barrio": "Barrio 7",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 23,
+      "nombre": "Ensalada de frutas",
+      "cantidad": 1,
+      "precio_unitario": 12000,
+      "subtotal": 12000
+    }
+  ],
+  "subtotal": 12000,
+  "costo_domicilio": 3000,
+  "total": 15000,
+  "estado_actual": {
+    "id_estado": 23,
+    "nombre": "PRODUCTO_EMPACADO"
+  },
+  "pago": {
+    "metodo": "TARJETA",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-04 12:30:00",
+    "valor": 15000
+  },
+  "asignacion": {
+    "id_domiciliario": 23,
+    "nombre": "Esteban Ramirez",
+    "telefono": "3105550023",
+    "fecha_asignacion": "2026-11-04 12:45:00",
+    "fecha_recogida": "2026-11-04 13:00:00",
+    "fecha_entrega": "2026-11-04 13:30:00",
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 23,
+      "estado": "PRODUCTO_EMPACADO",
+      "fecha": "2026-11-04 12:00:00",
+      "observacion": "Pedido empacado y listo"
+    }
+  ],
+  "incidencia": {
+    "tipo": "NOVEDAD",
+    "descripcion": "Empaque revisado correctamente",
+    "fecha": "2026-11-04 13:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4daf"
+  },
+  "id_pedido": 24,
+  "fecha_creacion": "2026-11-04 13:00:00",
+  "cliente": {
+    "id_cliente": 24,
+    "nombre": "Samuel Morales",
+    "telefono": "3205550024",
+    "correo": "samuel.morales24@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 27 # 17-15",
+    "barrio": "Barrio 8",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 24,
+      "nombre": "Helado de vainilla",
+      "cantidad": 2,
+      "precio_unitario": 7000,
+      "subtotal": 14000
+    }
+  ],
+  "subtotal": 14000,
+  "costo_domicilio": 3000,
+  "total": 17000,
+  "estado_actual": {
+    "id_estado": 24,
+    "nombre": "LISTO_PARA_ENVIO"
+  },
+  "pago": {
+    "metodo": "NEQUI",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-04 13:30:00",
+    "valor": 17000
+  },
+  "asignacion": {
+    "id_domiciliario": 24,
+    "nombre": "Cristian Gomez",
+    "telefono": "3105550024",
+    "fecha_asignacion": "2026-11-04 13:45:00",
+    "fecha_recogida": "2026-11-04 14:00:00",
+    "fecha_entrega": "2026-11-04 14:30:00",
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 24,
+      "estado": "LISTO_PARA_ENVIO",
+      "fecha": "2026-11-04 13:00:00",
+      "observacion": "Pedido listo para despacho"
+    }
+  ],
+  "incidencia": {
+    "tipo": "NOVEDAD",
+    "descripcion": "Pedido preparado para envio",
+    "fecha": "2026-11-04 14:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4db0"
+  },
+  "id_pedido": 25,
+  "fecha_creacion": "2026-11-05 12:00:00",
+  "cliente": {
+    "id_cliente": 25,
+    "nombre": "Valeria Sanchez",
+    "telefono": "3205550025",
+    "correo": "valeria.sanchez25@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 28 # 18-15",
+    "barrio": "Barrio 9",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 25,
+      "nombre": "Malteada de chocolate",
+      "cantidad": 1,
+      "precio_unitario": 11000,
+      "subtotal": 11000
+    }
+  ],
+  "subtotal": 11000,
+  "costo_domicilio": 3000,
+  "total": 14000,
+  "estado_actual": {
+    "id_estado": 25,
+    "nombre": "DOMICILIARIO_EN_RUTA"
+  },
+  "pago": {
+    "metodo": "EFECTIVO",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-05 12:30:00",
+    "valor": 14000
+  },
+  "asignacion": {
+    "id_domiciliario": 25,
+    "nombre": "Fernando Lopez",
+    "telefono": "3105550025",
+    "fecha_asignacion": "2026-11-05 12:45:00",
+    "fecha_recogida": "2026-11-05 13:00:00",
+    "fecha_entrega": "2026-11-05 13:30:00",
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 25,
+      "estado": "DOMICILIARIO_EN_RUTA",
+      "fecha": "2026-11-05 12:00:00",
+      "observacion": "Domiciliario inicio recorrido"
+    }
+  ],
+  "incidencia": {
+    "tipo": "RETRASO",
+    "descripcion": "Demora leve durante el recorrido",
+    "fecha": "2026-11-05 13:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4db1"
+  },
+  "id_pedido": 26,
+  "fecha_creacion": "2026-11-05 13:00:00",
+  "cliente": {
+    "id_cliente": 26,
+    "nombre": "Nicolas Ramirez",
+    "telefono": "3205550026",
+    "correo": "nicolas.ramirez26@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 29 # 19-15",
+    "barrio": "Barrio 10",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 26,
+      "nombre": "Cafe latte",
+      "cantidad": 2,
+      "precio_unitario": 8000,
+      "subtotal": 16000
+    }
+  ],
+  "subtotal": 16000,
+  "costo_domicilio": 3000,
+  "total": 19000,
+  "estado_actual": {
+    "id_estado": 26,
+    "nombre": "CERCA_DEL_DESTINO"
+  },
+  "pago": {
+    "metodo": "TARJETA",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-05 13:30:00",
+    "valor": 19000
+  },
+  "asignacion": {
+    "id_domiciliario": 26,
+    "nombre": "Alexander Ruiz",
+    "telefono": "3105550026",
+    "fecha_asignacion": "2026-11-05 13:45:00",
+    "fecha_recogida": "2026-11-05 14:00:00",
+    "fecha_entrega": "2026-11-05 14:30:00",
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 26,
+      "estado": "CERCA_DEL_DESTINO",
+      "fecha": "2026-11-05 13:00:00",
+      "observacion": "Domiciliario cerca de la direccion"
+    }
+  ],
+  "incidencia": {
+    "tipo": "NOVEDAD",
+    "descripcion": "Entrega proxima a finalizar",
+    "fecha": "2026-11-05 14:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4db2"
+  },
+  "id_pedido": 27,
+  "fecha_creacion": "2026-11-06 12:00:00",
+  "cliente": {
+    "id_cliente": 27,
+    "nombre": "Mariana Torres",
+    "telefono": "3205550027",
+    "correo": "mariana.torres27@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 30 # 20-15",
+    "barrio": "Barrio 11",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 27,
+      "nombre": "Te frio",
+      "cantidad": 1,
+      "precio_unitario": 5000,
+      "subtotal": 5000
+    }
+  ],
+  "subtotal": 5000,
+  "costo_domicilio": 3000,
+  "total": 8000,
+  "estado_actual": {
+    "id_estado": 27,
+    "nombre": "ENTREGA_PARCIAL"
+  },
+  "pago": {
+    "metodo": "NEQUI",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-06 12:30:00",
+    "valor": 8000
+  },
+  "asignacion": {
+    "id_domiciliario": 27,
+    "nombre": "Sergio Herrera",
+    "telefono": "3105550027",
+    "fecha_asignacion": "2026-11-06 12:45:00",
+    "fecha_recogida": "2026-11-06 13:00:00",
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estado": [
+    {
+      "id_estado": 27,
+      "estado": "ENTREGA_PARCIAL",
+      "fecha": "2026-11-06 12:00:00",
+      "observacion": "Entrega parcial registrada"
+    }
+  ],
+  "incidencia": {
+    "tipo": "ENTREGA",
+    "descripcion": "Falta confirmar entrega de un producto",
+    "fecha": "2026-11-06 13:30:00",
+    "resuelta": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4db3"
+  },
+  "id_pedido": 28,
+  "fecha_creacion": "2026-11-06 13:00:00",
+  "cliente": {
+    "id_cliente": 28,
+    "nombre": "Sebastian Rojas",
+    "telefono": "3205550028",
+    "correo": "sebastian.rojas28@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 31 # 21-15",
+    "barrio": "Barrio 12",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 28,
+      "nombre": "Pan artesanal",
+      "cantidad": 1,
+      "precio_unitario": 6000,
+      "subtotal": 6000
+    }
+  ],
+  "subtotal": 6000,
+  "costo_domicilio": 3000,
+  "total": 9000,
+  "estado_actual": {
+    "id_estado": 28,
+    "nombre": "ENTREGA_COMPLETA"
+  },
+  "pago": {
+    "metodo": "EFECTIVO",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-06 13:30:00",
+    "valor": 9000
+  },
+  "asignacion": {
+    "id_domiciliario": 28,
+    "nombre": "Mauricio Diaz",
+    "telefono": "3105550028",
+    "fecha_asignacion": "2026-11-06 13:45:00",
+    "fecha_recogida": "2026-11-06 14:00:00",
+    "fecha_entrega": "2026-11-06 14:30:00",
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 28,
+      "estado": "ENTREGA_COMPLETA",
+      "fecha": "2026-11-06 13:00:00",
+      "observacion": "Pedido entregado completamente"
+    }
+  ],
+  "incidencia": {
+    "tipo": "ENTREGA",
+    "descripcion": "Cliente recibio todos los productos",
+    "fecha": "2026-11-06 14:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4db4"
+  },
+  "id_pedido": 29,
+  "fecha_creacion": "2026-11-07 12:00:00",
+  "cliente": {
+    "id_cliente": 29,
+    "nombre": "Luciana Diaz",
+    "telefono": "3205550029",
+    "correo": "luciana.diaz29@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 32 # 22-15",
+    "barrio": "Barrio 13",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 29,
+      "nombre": "Pan de queso",
+      "cantidad": 2,
+      "precio_unitario": 4000,
+      "subtotal": 8000
+    }
+  ],
+  "subtotal": 8000,
+  "costo_domicilio": 3000,
+  "total": 11000,
+  "estado_actual": {
+    "id_estado": 29,
+    "nombre": "CLIENTE_AUSENTE"
+  },
+  "pago": {
+    "metodo": "TARJETA",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-07 12:30:00",
+    "valor": 11000
+  },
+  "asignacion": {
+    "id_domiciliario": 29,
+    "nombre": "Diego Rincon",
+    "telefono": "3105550029",
+    "fecha_asignacion": "2026-11-07 12:45:00",
+    "fecha_recogida": "2026-11-07 13:00:00",
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estado": [
+    {
+      "id_estado": 29,
+      "estado": "CLIENTE_AUSENTE",
+      "fecha": "2026-11-07 13:00:00",
+      "observacion": "Cliente no se encontraba en la direccion"
+    }
+  ],
+  "incidencia": {
+    "tipo": "ENTREGA",
+    "descripcion": "No fue posible contactar al cliente",
+    "fecha": "2026-11-07 13:30:00",
+    "resuelta": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4db5"
+  },
+  "id_pedido": 30,
+  "fecha_creacion": "2026-11-07 13:00:00",
+  "cliente": {
+    "id_cliente": 30,
+    "nombre": "Emmanuel Lopez",
+    "telefono": "3205550030",
+    "correo": "emmanuel.lopez30@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 33 # 23-15",
+    "barrio": "Barrio 14",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 30,
+      "nombre": "Galletas de chocolate",
+      "cantidad": 1,
+      "precio_unitario": 5000,
+      "subtotal": 5000
+    }
+  ],
+  "subtotal": 5000,
+  "costo_domicilio": 3000,
+  "total": 8000,
+  "estado_actual": {
+    "id_estado": 30,
+    "nombre": "DIRECCION_INCORRECTA"
+  },
+  "pago": {
+    "metodo": "NEQUI",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-07 13:30:00",
+    "valor": 8000
+  },
+  "asignacion": {
+    "id_domiciliario": 30,
+    "nombre": "Felipe Castillo",
+    "telefono": "3105550030",
+    "fecha_asignacion": "2026-11-07 13:45:00",
+    "fecha_recogida": "2026-11-07 14:00:00",
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estado": [
+    {
+      "id_estado": 30,
+      "estado": "DIRECCION_INCORRECTA",
+      "fecha": "2026-11-07 13:00:00",
+      "observacion": "Se detecto inconsistencia en la direccion"
+    }
+  ],
+  "incidencia": {
+    "tipo": "DIRECCION",
+    "descripcion": "Direccion requiere confirmacion del cliente",
+    "fecha": "2026-11-07 13:30:00",
+    "resuelta": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4db6"
+  },
+  "id_pedido": 31,
+  "fecha_creacion": "2026-11-08 12:00:00",
+  "cliente": {
+    "id_cliente": 31,
+    "nombre": "Isabella Castro",
+    "telefono": "3205550031",
+    "correo": "isabella.castro31@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 34 # 24-15",
+    "barrio": "Barrio 15",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 31,
+      "nombre": "Torta de chocolate",
+      "cantidad": 1,
+      "precio_unitario": 12000,
+      "subtotal": 12000
+    }
+  ],
+  "subtotal": 12000,
+  "costo_domicilio": 3000,
+  "total": 15000,
+  "estado_actual": {
+    "id_estado": 31,
+    "nombre": "PEDIDO_DEVUELTO"
+  },
+  "pago": {
+    "metodo": "EFECTIVO",
+    "estado": "PENDIENTE",
+    "fecha_pago": null,
+    "valor": 15000
+  },
+  "asignacion": {
+    "id_domiciliario": 31,
+    "nombre": "Manuel Ortiz",
+    "telefono": "3105550031",
+    "fecha_asignacion": "2026-11-08 12:45:00",
+    "fecha_recogida": "2026-11-08 13:00:00",
+    "fecha_entrega": null,
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 31,
+      "estado": "PEDIDO_DEVUELTO",
+      "fecha": "2026-11-08 13:00:00",
+      "observacion": "Pedido devuelto al establecimiento"
+    }
+  ],
+  "incidencia": {
+    "tipo": "DEVOLUCION",
+    "descripcion": "Pedido devuelto por inconveniente en la entrega",
+    "fecha": "2026-11-08 13:30:00",
+    "resuelta": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4db7"
+  },
+  "id_pedido": 32,
+  "fecha_creacion": "2026-11-08 13:00:00",
+  "cliente": {
+    "id_cliente": 32,
+    "nombre": "Andres Gonzalez",
+    "telefono": "3205550032",
+    "correo": "andres.gonzalez32@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 35 # 25-15",
+    "barrio": "Barrio 16",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 32,
+      "nombre": "Pizza de pollo",
+      "cantidad": 1,
+      "precio_unitario": 30000,
+      "subtotal": 30000
+    }
+  ],
+  "subtotal": 30000,
+  "costo_domicilio": 3000,
+  "total": 33000,
+  "estado_actual": {
+    "id_estado": 32,
+    "nombre": "REEMBOLSO_SOLICITADO"
+  },
+  "pago": {
+    "metodo": "TARJETA",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-08 13:30:00",
+    "valor": 33000
+  },
+  "asignacion": {
+    "id_domiciliario": 32,
+    "nombre": "Jhonatan Perez",
+    "telefono": "3105550032",
+    "fecha_asignacion": "2026-11-08 13:45:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 32,
+      "estado": "REEMBOLSO_SOLICITADO",
+      "fecha": "2026-11-08 13:00:00",
+      "observacion": "Cliente solicito reembolso"
+    }
+  ],
+  "incidencia": {
+    "tipo": "REEMBOLSO",
+    "descripcion": "Solicitud de reembolso pendiente de revision",
+    "fecha": "2026-11-08 13:30:00",
+    "resuelta": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4db8"
+  },
+  "id_pedido": 33,
+  "fecha_creacion": "2026-11-09 12:00:00",
+  "cliente": {
+    "id_cliente": 33,
+    "nombre": "Camila Fernandez",
+    "telefono": "3205550033",
+    "correo": "camila.fernandez33@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 36 # 26-15",
+    "barrio": "Barrio 17",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 33,
+      "nombre": "Hamburguesa BBQ",
+      "cantidad": 1,
+      "precio_unitario": 28000,
+      "subtotal": 28000
+    }
+  ],
+  "subtotal": 28000,
+  "costo_domicilio": 3000,
+  "total": 31000,
+  "estado_actual": {
+    "id_estado": 33,
+    "nombre": "REEMBOLSO_APROBADO"
+  },
+  "pago": {
+    "metodo": "NEQUI",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-09 12:30:00",
+    "valor": 31000
+  },
+  "asignacion": {
+    "id_domiciliario": 33,
+    "nombre": "Andres Pardo",
+    "telefono": "3105550033",
+    "fecha_asignacion": "2026-11-09 12:45:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 33,
+      "estado": "REEMBOLSO_APROBADO",
+      "fecha": "2026-11-09 12:00:00",
+      "observacion": "Reembolso aprobado"
+    }
+  ],
+  "incidencia": {
+    "tipo": "REEMBOLSO",
+    "descripcion": "Devolucion de dinero aprobada",
+    "fecha": "2026-11-09 13:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4db9"
+  },
+  "id_pedido": 34,
+  "fecha_creacion": "2026-11-09 13:00:00",
+  "cliente": {
+    "id_cliente": 34,
+    "nombre": "Felipe Martinez",
+    "telefono": "3205550034",
+    "correo": "felipe.martinez34@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 37 # 27-15",
+    "barrio": "Barrio 18",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 34,
+      "nombre": "Hamburguesa vegetariana",
+      "cantidad": 1,
+      "precio_unitario": 22000,
+      "subtotal": 22000
+    }
+  ],
+  "subtotal": 22000,
+  "costo_domicilio": 3000,
+  "total": 25000,
+  "estado_actual": {
+    "id_estado": 34,
+    "nombre": "REEMBOLSO_RECHAZADO"
+  },
+  "pago": {
+    "metodo": "EFECTIVO",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-09 13:30:00",
+    "valor": 25000
+  },
+  "asignacion": {
+    "id_domiciliario": 34,
+    "nombre": "Wilson Suarez",
+    "telefono": "3105550034",
+    "fecha_asignacion": "2026-11-09 13:45:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 34,
+      "estado": "REEMBOLSO_RECHAZADO",
+      "fecha": "2026-11-09 13:00:00",
+      "observacion": "Solicitud de reembolso rechazada"
+    }
+  ],
+  "incidencia": {
+    "tipo": "REEMBOLSO",
+    "descripcion": "No se cumplen las condiciones para reembolso",
+    "fecha": "2026-11-09 13:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4dba"
+  },
+  "id_pedido": 35,
+  "fecha_creacion": "2026-11-10 12:00:00",
+  "cliente": {
+    "id_cliente": 35,
+    "nombre": "Natalia Suarez",
+    "telefono": "3205550035",
+    "correo": "natalia.suarez35@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 38 # 28-15",
+    "barrio": "Barrio 19",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 35,
+      "nombre": "Wrap vegano",
+      "cantidad": 1,
+      "precio_unitario": 18000,
+      "subtotal": 18000
+    }
+  ],
+  "subtotal": 18000,
+  "costo_domicilio": 3000,
+  "total": 21000,
+  "estado_actual": {
+    "id_estado": 35,
+    "nombre": "PEDIDO_MODIFICADO"
+  },
+  "pago": {
+    "metodo": "TARJETA",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-10 12:30:00",
+    "valor": 21000
+  },
+  "asignacion": {
+    "id_domiciliario": 35,
+    "nombre": "Ivan Gonzalez",
+    "telefono": "3105550035",
+    "fecha_asignacion": "2026-11-10 12:45:00",
+    "fecha_recogida": "2026-11-10 13:00:00",
+    "fecha_entrega": "2026-11-10 13:30:00",
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 35,
+      "estado": "PEDIDO_MODIFICADO",
+      "fecha": "2026-11-10 12:00:00",
+      "observacion": "Pedido modificado por solicitud del cliente"
+    }
+  ],
+  "incidencia": {
+    "tipo": "MODIFICACION",
+    "descripcion": "Se actualizo el pedido correctamente",
+    "fecha": "2026-11-10 13:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4dbb"
+  },
+  "id_pedido": 36,
+  "fecha_creacion": "2026-11-10 13:00:00",
+  "cliente": {
+    "id_cliente": 36,
+    "nombre": "David Ortega",
+    "telefono": "3205550036",
+    "correo": "david.ortega36@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 39 # 29-15",
+    "barrio": "Barrio 20",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 36,
+      "nombre": "Camarones apanados",
+      "cantidad": 1,
+      "precio_unitario": 32000,
+      "subtotal": 32000
+    }
+  ],
+  "subtotal": 32000,
+  "costo_domicilio": 3000,
+  "total": 35000,
+  "estado_actual": {
+    "id_estado": 36,
+    "nombre": "PEDIDO_REPROGRAMADO"
+  },
+  "pago": {
+    "metodo": "NEQUI",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-10 13:30:00",
+    "valor": 35000
+  },
+  "asignacion": {
+    "id_domiciliario": 36,
+    "nombre": "Hector Cardenas",
+    "telefono": "3105550036",
+    "fecha_asignacion": "2026-11-10 13:45:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": true
+  },
+  "historial_estado": [
+    {
+      "id_estado": 36,
+      "estado": "PEDIDO_REPROGRAMADO",
+      "fecha": "2026-11-10 13:00:00",
+      "observacion": "Entrega reprogramada con el cliente"
+    }
+  ],
+  "incidencia": {
+    "tipo": "REPROGRAMACION",
+    "descripcion": "Cliente solicito cambiar el horario de entrega",
+    "fecha": "2026-11-10 13:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4dbc"
+  },
+  "id_pedido": 37,
+  "fecha_creacion": "2026-11-11 12:00:00",
+  "cliente": {
+    "id_cliente": 37,
+    "nombre": "Laura Beltran",
+    "telefono": "3205550037",
+    "correo": "laura.beltran37@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 40 # 30-15",
+    "barrio": "Barrio 21",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 37,
+      "nombre": "Sushi mixto",
+      "cantidad": 1,
+      "precio_unitario": 35000,
+      "subtotal": 35000
+    }
+  ],
+  "subtotal": 35000,
+  "costo_domicilio": 3000,
+  "total": 38000,
+  "estado_actual": {
+    "id_estado": 37,
+    "nombre": "INCIDENCIA_REPORTADA"
+  },
+  "pago": {
+    "metodo": "EFECTIVO",
+    "estado": "PENDIENTE",
+    "fecha_pago": null,
+    "valor": 38000
+  },
+  "asignacion": {
+    "id_domiciliario": 37,
+    "nombre": "N/A",
+    "telefono": "N/A",
+    "fecha_asignacion": "2026-11-11 12:45:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 37,
+      "estado": "INCIDENCIA_REPORTADA",
+      "fecha": "2026-11-11 12:00:00",
+      "observacion": "Se reporto una incidencia en el pedido"
+    }
+  ],
+  "incidencia": {
+    "tipo": "PRODUCTO",
+    "descripcion": "Se reporto una novedad con el producto",
+    "fecha": "2026-11-11 13:30:00",
+    "resuelta": false
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4dbd"
+  },
+  "id_pedido": 38,
+  "fecha_creacion": "2026-11-11 13:00:00",
+  "cliente": {
+    "id_cliente": 38,
+    "nombre": "Miguel Pardo",
+    "telefono": "3205550038",
+    "correo": "miguel.pardo38@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 41 # 31-15",
+    "barrio": "Barrio 22",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 38,
+      "nombre": "Burrito mexicano",
+      "cantidad": 1,
+      "precio_unitario": 20000,
+      "subtotal": 20000
+    }
+  ],
+  "subtotal": 20000,
+  "costo_domicilio": 3000,
+  "total": 23000,
+  "estado_actual": {
+    "id_estado": 38,
+    "nombre": "INCIDENCIA_RESUELTA"
+  },
+  "pago": {
+    "metodo": "TARJETA",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-11 13:30:00",
+    "valor": 23000
+  },
+  "asignacion": {
+    "id_domiciliario": 38,
+    "nombre": "N/A",
+    "telefono": "N/A",
+    "fecha_asignacion": "2026-11-11 13:45:00",
+    "fecha_recogida": null,
+    "fecha_entrega": null,
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 38,
+      "estado": "INCIDENCIA_RESUELTA",
+      "fecha": "2026-11-11 13:00:00",
+      "observacion": "Incidencia solucionada"
+    }
+  ],
+  "incidencia": {
+    "tipo": "PRODUCTO",
+    "descripcion": "La novedad reportada fue solucionada",
+    "fecha": "2026-11-11 13:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4dbe"
+  },
+  "id_pedido": 39,
+  "fecha_creacion": "2026-11-12 12:00:00",
+  "cliente": {
+    "id_cliente": 39,
+    "nombre": "Sofia Acosta",
+    "telefono": "3205550039",
+    "correo": "sofia.acosta39@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 42 # 32-15",
+    "barrio": "Barrio 23",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 39,
+      "nombre": "Lasana de carne",
+      "cantidad": 1,
+      "precio_unitario": 24000,
+      "subtotal": 24000
+    }
+  ],
+  "subtotal": 24000,
+  "costo_domicilio": 3000,
+  "total": 27000,
+  "estado_actual": {
+    "id_estado": 39,
+    "nombre": "PEDIDO_FINALIZADO"
+  },
+  "pago": {
+    "metodo": "NEQUI",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-12 12:30:00",
+    "valor": 27000
+  },
+  "asignacion": {
+    "id_domiciliario": 39,
+    "nombre": "N/A",
+    "telefono": "N/A",
+    "fecha_asignacion": "2026-11-12 12:45:00",
+    "fecha_recogida": "2026-11-12 13:00:00",
+    "fecha_entrega": "2026-11-12 13:30:00",
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 39,
+      "estado": "PEDIDO_FINALIZADO",
+      "fecha": "2026-11-12 13:30:00",
+      "observacion": "Pedido finalizado correctamente"
+    }
+  ],
+  "incidencia": {
+    "tipo": "NOVEDAD",
+    "descripcion": "Pedido completado sin inconvenientes",
+    "fecha": "2026-11-12 13:30:00",
+    "resuelta": true
+  }
+},
+{
+  "_id": {
+    "$oid": "6b04d909e5a5b5ab45ef4dbf"
+  },
+  "id_pedido": 40,
+  "fecha_creacion": "2026-11-12 13:00:00",
+  "cliente": {
+    "id_cliente": 40,
+    "nombre": "Juan Cardenas",
+    "telefono": "3205550040",
+    "correo": "juan.cardenas40@gmail.com"
+  },
+  "direccion_entrega": {
+    "direccion": "Calle 43 # 33-15",
+    "barrio": "Barrio 24",
+    "ciudad": "Bogota"
+  },
+  "productos": [
+    {
+      "id_producto": 40,
+      "nombre": "Combo de hamburguesa",
+      "cantidad": 1,
+      "precio_unitario": 35000,
+      "subtotal": 35000
+    }
+  ],
+  "subtotal": 35000,
+  "costo_domicilio": 3000,
+  "total": 38000,
+  "estado_actual": {
+    "id_estado": 40,
+    "nombre": "PEDIDO_ARCHIVADO"
+  },
+  "pago": {
+    "metodo": "EFECTIVO",
+    "estado": "APROBADO",
+    "fecha_pago": "2026-11-12 13:30:00",
+    "valor": 38000
+  },
+  "asignacion": {
+    "id_domiciliario": 40,
+    "nombre": "N/A",
+    "telefono": "N/A",
+    "fecha_asignacion": "2026-11-12 13:45:00",
+    "fecha_recogida": "2026-11-12 14:00:00",
+    "fecha_entrega": "2026-11-12 14:30:00",
+    "activa": false
+  },
+  "historial_estado": [
+    {
+      "id_estado": 40,
+      "estado": "PEDIDO_ARCHIVADO",
+      "fecha": "2026-11-12 14:30:00",
+      "observacion": "Pedido archivado en el sistema"
+    }
+  ],
+  "incidencia": {
+    "tipo": "NOVEDAD",
+    "descripcion": "Registro archivado sin novedades pendientes",
+    "fecha": "2026-11-12 14:30:00",
+    "resuelta": true
+  }
+}]
